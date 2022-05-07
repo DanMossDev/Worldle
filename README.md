@@ -12,6 +12,6 @@ Aesthetically I was aiming for a very simple retro look, almost text-adventure-e
 
 Currently Worldle is barely a game; there are only 5 countries set up - in the future I will likely add more and make it somewhat more playable. In terms of scaleability, while adding new countries is very easy it's also very easy to mess up; so I may somewhere down the line write a little program to add the the array while checking for obvious errors.
 
-All code is original aside from the on-screen keyboard which was borrowed from freeCodeCamp (https://www.freecodecamp.org/news/build-a-wordle-clone-in-javascript/)
+All code is original aside from the on-screen keyboard layout which was borrowed from freeCodeCamp (https://www.freecodecamp.org/news/build-a-wordle-clone-in-javascript/), though again the actual functionality for it is original code.
 
 All in all, pretty happy with how this turned out!
