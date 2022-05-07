@@ -1,0 +1,104 @@
+* {
+    font-size: 3vmin;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(21, 36, 36);
+    color: rgb(160, 129, 93);
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 2vh;
+    padding: 1vh;
+}
+
+hr {
+    border: 1px solid rgb(160, 129, 93);
+}
+
+#keyboard {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+#keyboard div {
+    display: flex;
+}
+  
+.second-row {
+    margin: 0.5rem 0;
+}
+
+.third-row {
+    margin-bottom: 0.5rem;
+}
+  
+.keyboard-button {
+    font-size: rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    margin: 0 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+    background-color: rgb(160, 129, 93);
+    color: rgb(21, 36, 36);
+}
+
+#playagain {
+    font-size: 2rem;
+    padding: 0.5rem;
+    background-color: rgb(160, 129, 93);
+    color: rgb(21, 36, 36);
+    visibility: hidden;
+    margin: 1rem auto;
+}
+
+.forth-row button {
+    width: 10rem;
+}
+
+input {
+    margin-top: 1rem;
+    background-color: rgb(160, 129, 93);
+    color: rgb(21, 36, 36);
+    width: 15rem;
+    font-size: 1.25rem;
+}
+
+img {
+    width: 30%;
+}
+
+#hint {
+    font-style: italic;
+}
+
+@media screen and (max-width: 1200px) {
+    img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    img {
+        width: 80%;
+    }
+
+    * {
+        font-size: 4vmin;
+    }
+
+    input {
+        margin: .5rem 0;
+    }
+
+    header h1 {
+        font-size: 3rem;
+        margin: 2vh;
+        padding: 1vh;
+    }
+}
