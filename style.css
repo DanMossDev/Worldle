@@ -46,6 +46,7 @@ hr {
     text-transform: uppercase;
     background-color: rgb(160, 129, 93);
     color: rgb(21, 36, 36);
+    touch-action: manipulation;
 }
 
 .letter {
