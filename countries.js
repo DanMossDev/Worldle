@@ -1,7 +1,12 @@
 export const COUNTRIES = [
-    {name: 'England', hint: ['Highest Peak: Scafell Pike', 'Capital City GDP in USD: 620 Billion', 'Home to the river Aire', '<img src="./images/england_hint4.jpg">']},
-    {name: 'Scotland', hint: ['Place Name: Perth', 'Capital city is rumoured to be named for King Edwin of a neighbouring country', 'Chicken Tikka Masala was reportedly first made in this country', 'Famous Resident: Ewan McGregor']},
-    {name: 'Wales', hint: ['Famous Resident: Richard Burton', 'Place Name: Fishguard', '<img src="./images/wales_hint3.jpg">', 'Sheep-to-human ratio of 3:1']},
-    {name: 'Northern Ireland', hint: ['Political Party: Sinn Féin', 'Birthplace of the absolute temperature scale (later renamed "Kelvin")', 'Once known as Ulster', '<img src="./images/northernireland_hint4.jpg">']},
-    {name: 'Ireland', hint: ['Local Brand: Tayto', 'Filmed here: Star Wars - The Last Jedi', 'Westernmost Point: Dingle Peninsula', 'Mythological Creature: Fomorian']}
+    {name: 'England', hint: ['For 300 years, the official language of this country was French', 'Capital City GDP in USD: 620 Billion', 'Home to the river Aire', '<img src="./images/england_hint4.jpg" alt="A photo of the Angel of the North">']},
+    {name: 'Scotland', hint: ['Chicken Tikka Masala was reportedly first made in this country', 'Place Name: Perth', 'Capital city is rumoured to be named for King Edwin of a neighbouring country', 'Famous Resident: Ewan McGregor']},
+    {name: 'Wales', hint: ['Famous Resident: Richard Burton', 'Place Name: Fishguard', '<img src="./images/wales_hint3.jpg" alt="A photo of Welshcakes">', 'Sheep-to-human ratio of 3:1']},
+    {name: 'Northern Ireland', hint: ['Political Party: Sinn Féin', 'Birthplace of the absolute temperature scale (later renamed "Kelvin")', 'Once known as Ulster', '<img src="./images/northernireland_hint4.jpg" alt="A photo of the Giant\'s Causway">']},
+    {name: 'Ireland', hint: ['Local Brand: Tayto', 'Filmed here: Star Wars - The Last Jedi', 'Westernmost Point: Dingle Peninsula', 'Mythological Creature: Fomorian']},
+    {name: 'France', hint: ['Louis XIX was the king of this country for just 20 minutes', 'Home to the first ever screening of a motion picture', 'Highest Peak: Mont Blanc', 'Producer of the most expensive bottle of wine in history']},
+    {name: 'Germany', hint: ['65% of highways here have no speed limit', 'Home to more than 2100 castles, and 1500 different beers', '<img src="./images/germany_hint3.jpg" alt="A photo of the Brandenburg Gate">', 'Historically has been known as both Prussia and the Holy Roman Empire']},
+    {name: 'Italy', hint: ['Though rich in history, has only technically been a country since 1861', 'Despite this, the capital city is over 2000 years old', '13 of Shakespeare\'s plays are set here', '<img src="./images/italy_hint4.jpg" alt="A photo of Venice">']},
+    {name: 'Spain', hint: ['Place Name: Granada', 'Home of the world\'s second most widely-spoke language', 'Nudity is legal here (though considered inappropriate in many contexts)', '<img src="./images/spain_hint4.jpg" alt="A photo of a flag with horizontal red and yellow lines and a family crest center-left">']},
+    {name: 'Portugal', hint: ['<img src="./images/portugal_hint1.jpg" alt="A photo of a a statue depicting Jesus Christ looking out over a river and a city in the distance">', 'Being established in 1139, this is the oldest country in Europe', 'Ex-colonies of this country make up around half of the Americas', 'Famous Resident: Christiano Ronaldo']}
 ]

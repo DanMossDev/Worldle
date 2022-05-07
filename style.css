@@ -48,6 +48,10 @@ hr {
     color: rgb(21, 36, 36);
 }
 
+.letter {
+    width: 2rem;
+}
+
 #playagain {
     font-size: 2rem;
     padding: 0.5rem;
