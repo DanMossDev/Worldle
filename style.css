@@ -9,13 +9,19 @@
 }
 
 header h1 {
-    font-size: 3rem;
-    margin-bottom: 2vh;
+    font-size: 4rem;
+    margin-bottom: 0;
     padding: 1vh;
+    line-height: 1;
+}
+header h2 {
+    margin-bottom: 1vh;
+    font-style: italic;
 }
 
 hr {
     border: 1px solid rgb(160, 129, 93);
+    margin-bottom: 1vh
 }
 
 #keyboard {
