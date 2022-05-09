@@ -88,6 +88,12 @@ function victorySequence() {
     hint.textContent = '';
     keyboard.style.display = 'none';
     userInput.style.display = 'none';
+    
+    setTimeout(relaunchSequence, 200);
+}
+
+function relaunchSequence() {
+    document.addEventListener("keydown", function(e) {if (e.code === "Enter") {location.reload()}});
 }
 
 randomCountry();
